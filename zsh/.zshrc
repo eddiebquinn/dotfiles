@@ -7,4 +7,4 @@ PROMPT="%B%F{6}[%f%b%F{2}%n%f%F{6}@%f%F{2}%m%f%B%F{6}] - [%f%b%F{red}%~%f%B%F{6}
 
 # COSEMTIC CHANGES
 echo
-paleofetch
+neofetch

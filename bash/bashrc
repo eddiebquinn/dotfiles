@@ -13,25 +13,3 @@ PS1='[\u@\h \W]\$ '
 echo
 paleofetch
 
-###############
-### ALIASES ###
-###############
-
-# Config files
-alias pbs='sudo vim ~/.config/polybar/config.ini'
-alias bss='sudo vim ~/.config/bspwm/bspwmrc'
-alias bshs='sudo vim ~/.bashrc'
-alias rbash='source ~/.bashrc'
-alias ss='sudo vim ~/.config/sxhkd/sxhkdrc'
-
-# Programs
-alias v='vim'
-alias sv='sudo vim'
-alias ricky='ssh hellhound@139.162.201.206'
-alias vpn='protonvpn-cli'
-alias orphan='sudo pacman -Qtdq | sudo pacman -Rns -'
-
-# Projects
-
-alias dricky='cd ~/Coding/Python/Ricky'
-alias dhugo='cd ~/Coding/misc/eddies-blog'

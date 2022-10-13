@@ -12,3 +12,6 @@ git clone git@github.com:eddiebquinn/dotfiles.git --recurse-submodules
 cd dotfiles
 ./install
 ```
+
+# Things to bear in mind
+- In order to keep `.zshenv` out of `$HOME` you need to include `export ZDOTDIR="$HOME"/.config/zsh` in `/etc/zsh/zshenv`

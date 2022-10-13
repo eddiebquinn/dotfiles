@@ -1,0 +1,10 @@
+[user]
+	email = github@pranonym.com
+	name = eddiebquinn
+	signingKey = E8C103E2355CF5DCE99FC8463D38D49EFAED22C5
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+[core]
+	editor = code -w

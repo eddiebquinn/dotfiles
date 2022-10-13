@@ -1,0 +1,28 @@
+#! /bin/sh
+
+### AUTOSTART PROGRAMS ###
+
+~/.config/autostart_scripts/screenlayout.sh &
+~/.config/polybar/launch.sh &
+setxkbmap -layout gb
+sxhkd &
+nitrogen --restore &
+gnome-keyring-daemon --start &
+nm-applet &
+proton-cli c -f &
+
+megasync &
+
+### MONITORS AND WORKSPACES ###
+bspc monitor DP-0 -d I II III IV V VI VII VIII IX 
+bspc monitor DP-2 -d I II III IV V VI VII VIII IX
+
+### BSPWM CONFIG ###
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+

@@ -17,3 +17,6 @@
 
     ~/.vim: vim
 
+    ~/.config/bspwm: ArchSpecific/bspwm
+    ~/.config/polybar: ArchSpecific/polybar
+    ~/.config/sxhkd: ArchSpecific/sxhkd

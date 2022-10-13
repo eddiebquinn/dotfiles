@@ -6,14 +6,13 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: gitconfig
+    ~/.config/git/config: git/gitconfig 
 
     ~/.bashrc: bash/bashrc
     ~/.bash_logout: bash/bash_logout
     ~/.bash_profile: bash/bash_profile
 
-    ~/.zshrc: zsh/zshrc
-    ~/.zshenv: zsh/zshenv
+    ~/.config/zsh: zsh/
 
     ~/.vim: vim
 

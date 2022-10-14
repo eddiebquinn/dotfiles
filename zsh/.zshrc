@@ -1,5 +1,8 @@
-# Created by newuser for 5.9
+zsh_dir=${${ZDOTDIR}:-$HOME/.config/zsh}
 
+# Import alias files
+source ${zsh_dir}/aliases/general.zsh
+source ${zsh_dir}/aliases/git.zsh
 
 # PROMPT
 NEWLINE=$'\n' 

@@ -8,6 +8,7 @@ export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
 
 # Cleanup
 export ZDOTDIR="$HOME"/.config/zsh
+export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg

@@ -1,4 +1,5 @@
 zsh_dir=${${ZDOTDIR}:-$HOME/.config/zsh}
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 
 # Import alias files
 source ${zsh_dir}/aliases/general.zsh

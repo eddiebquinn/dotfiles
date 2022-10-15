@@ -14,7 +14,7 @@
 
     ~/.config/zsh: zsh/
 
-    ~/.vim: vim
+    ~/.config/vim: vim
 
     ~/.config/bspwm: ArchSpecific/bspwm
     ~/.config/polybar: ArchSpecific/polybar

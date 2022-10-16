@@ -56,7 +56,7 @@ alias dotfiles="${DOTFILES_DIR:-$HOME/Documents/.dotfiles}/install.sh"
 # Top KEK
 alias cls='clear;ls'							 # Clear and ls
 alias plz="fc -l -1 | cut -d' ' -f2- | xargs sudo"			 # Re-run last cmd as root
-alias yolo='git add .; git commit -m "YOLO"; git push origin master'
+alias yolo='git add .; git commit -m "Blind commit"; git push origin master'
 alias whereami='pwd'
 alias dog='cat'
 alias gtfo='exit'

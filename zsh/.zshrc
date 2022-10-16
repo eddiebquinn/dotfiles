@@ -4,6 +4,7 @@ compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 # Import alias files
 source ${zsh_dir}/aliases/general.zsh
 source ${zsh_dir}/aliases/git.zsh
+source ${zsh_dir}/aliases/pentest.zsh
 
 # PROMPT
 NEWLINE=$'\n' 

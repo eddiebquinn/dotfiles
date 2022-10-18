@@ -21,3 +21,5 @@
     ~/.config/sxhkd: ArchSpecific/sxhkd
 
     ~/.config/neofetch: misc/neofetch
+
+    ~/.config/npm: npm/

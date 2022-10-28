@@ -9,6 +9,9 @@ source ${zsh_dir}/aliases/git.zsh
 source ${zsh_dir}/aliases/pentest.zsh
 source ${zsh_dir}/aliases/remote.zsh
 
+# IMPORT PLUGINS
+source ${zsh_dir}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # PROMPT
 NEWLINE=$'\n' 
 PROMPT="%B%F{6}[%f%b%F{2}%n%f%F{6}@%f%F{2}%m%f%B%F{6}] - [%f%b%F{red}%~%f%B%F{6}]%f%b%B%F{cyan}ᛃ%f%b "

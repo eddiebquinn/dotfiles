@@ -7,6 +7,7 @@ compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 source ${zsh_dir}/aliases/general.zsh
 source ${zsh_dir}/aliases/git.zsh
 source ${zsh_dir}/aliases/pentest.zsh
+source ${zsh_dir}/aliases/remote.zsh
 
 # PROMPT
 NEWLINE=$'\n' 

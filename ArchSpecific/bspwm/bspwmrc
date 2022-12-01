@@ -14,8 +14,13 @@ proton-cli c -f &
 megasync &
 
 ### MONITORS AND WORKSPACES ###
+
+#PC
 bspc monitor DP-0 -d I II III IV V VI VII VIII IX 
 bspc monitor DP-2 -d I II III IV V VI VII VIII IX
+
+#Laptop
+bspc monitor LVDS-1 -d I II III IV V VI VII VIII IX
 
 ### BSPWM CONFIG ###
 

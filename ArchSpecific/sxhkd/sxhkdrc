@@ -16,7 +16,7 @@ super + k
 
 # BRAVE
 super + 1
-	brave 
+	firefox 
 
 # SXHKD RELOAD
 super + Escape

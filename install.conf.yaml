@@ -6,17 +6,17 @@
 - clean: ['~']
 
 - link:
-    ~/.config/git/config: git/gitconfig 
-    ~/.bashrc: bash/bashrc
-    ~/.bash_logout: bash/bash_logout
-    ~/.bash_profile: bash/bash_profile
+    ~/.config/git/config: dots/git/gitconfig 
+    ~/.bashrc: dots/bash/bashrc
+    ~/.bash_logout: dots/bash/bash_logout
+    ~/.bash_profile: dots/bash/bash_profile
     ~/.config/zsh: zsh/
-    ~/.config/vim: vim
-    ~/.config/bspwm: bspwm/
-    ~/.config/polybar: polybar/
-    ~/.config/sxhkd: sxhkd/
-    ~/.config/neofetch: neofetch
-    ~/.config/npm: npm/
+    ~/.config/vim: dots/vim
+    ~/.config/bspwm: dots/bspwm/
+    ~/.config/polybar: dots/polybar/
+    ~/.config/sxhkd: dots/sxhkd/
+    ~/.config/neofetch: dots/neofetch
+    ~/.config/npm: dots/npm/
 
 - create:
     - ~/Documents

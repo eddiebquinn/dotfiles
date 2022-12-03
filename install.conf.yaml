@@ -10,7 +10,7 @@
     ~/.bashrc: dots/bash/bashrc
     ~/.bash_logout: dots/bash/bash_logout
     ~/.bash_profile: dots/bash/bash_profile
-    ~/.config/zsh: zsh/
+    ~/.config/zsh: dots/zsh/
     ~/.config/vim: dots/vim
     ~/.config/bspwm: dots/bspwm/
     ~/.config/polybar: dots/polybar/

@@ -1,6 +1,6 @@
 autoload -Uz compinit
 
-zsh_dir=${${ZDOTDIR}:-$HOME/.config/zsh}
+zsh_dir=${${ZDOTDIR}:-$HOME/.config/dots/zsh}
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 
 # Import alias files

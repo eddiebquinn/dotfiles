@@ -52,6 +52,8 @@ alias weather-short='curl "wttr.in?format=3"'
 alias tinyurl='curl -s "http://tinyurl.com/api-create.php?url='
 alias ports='netstat -tulanp'
 alias dotfiles="${DOTFILES_DIR:-$HOME/Documents/.dotfiles}/install.sh"
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # Top KEK
 alias cls='clear;ls'							 # Clear and ls

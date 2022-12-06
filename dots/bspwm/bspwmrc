@@ -2,7 +2,10 @@
 
 ### AUTOSTART PROGRAMS ###
 
-~/.config/autostart_scripts/screenlayout.sh &
+if [[ $(xrandr -q | grep 'DP-0 Connected') ]]
+then
+	~/.config/two-face.sh &
+fi
 ~/.config/polybar/launch.sh &
 setxkbmap -layout gb
 sxhkd &

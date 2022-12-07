@@ -2,9 +2,9 @@
 
 ### AUTOSTART PROGRAMS ###
 
-if [[ $(xrandr -q | grep 'DP-0 Connected') ]]
+if [[ $(xrandr -q | grep 'DP-0 connected') ]]
 then
-	~/.config/two-face.sh &
+	~/.config/dotfiles/scripts/two-face.sh &
 fi
 ~/.config/polybar/launch.sh &
 setxkbmap -layout gb

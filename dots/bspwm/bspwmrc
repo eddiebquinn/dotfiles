@@ -2,7 +2,7 @@
 
 ### AUTOSTART PROGRAMS ###
 
-if [[ hostname = "two-face" ]]
+if [[ $(hostname) = "two-face" ]]
 then
 	~/.config/dotfiles/scripts/two-face.sh &
 fi

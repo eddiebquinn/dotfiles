@@ -17,6 +17,7 @@
     ~/.config/sxhkd: dots/sxhkd/
     ~/.config/neofetch: dots/neofetch
     ~/.config/npm: dots/npm/
+    ~/.config/nitrogen: dots/nitrogen
 
 - create:
     - ~/Documents

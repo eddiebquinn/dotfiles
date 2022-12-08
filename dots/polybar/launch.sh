@@ -5,9 +5,10 @@
 polybar-msg cmd quit
 
 # Launch bars
-if [[ $(xrandr -q | grep 'LVDS-1 connected') ]]
+if [ $(hostname) = "ghost" ]
 then
-	polybar laptop
-else
+	polybar t440
+elif [ $(hostname) = "two-face" ]
+then
 	polybar right & polybar left
 fi

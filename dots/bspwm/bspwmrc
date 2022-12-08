@@ -2,19 +2,13 @@
 
 ### AUTOSTART PROGRAMS ###
 
-if [[ $(xrandr -q | grep 'DP-0 connected') ]]
+if [[ hostname = "two-face" ]]
 then
 	~/.config/dotfiles/scripts/two-face.sh &
 fi
 ~/.config/polybar/launch.sh &
-setxkbmap -layout gb
 sxhkd &
 nitrogen --restore &
-gnome-keyring-daemon --start &
-nm-applet &
-proton-cli c -f &
-
-megasync &
 
 ### MONITORS AND WORKSPACES ###
 
@@ -23,7 +17,7 @@ bspc monitor DP-0 -d I II III IV V VI VII VIII IX
 bspc monitor DP-2 -d I II III IV V VI VII VIII IX
 
 #Laptop
-bspc monitor LVDS-1 -d I II III IV V VI VII VIII IX
+bspc monitor eDP1 -d I II III IV V VI VII VIII IX
 
 ### BSPWM CONFIG ###
 

@@ -1,7 +1,7 @@
 [user]
 	email = github@pranonym.com
 	name = eddiebquinn
-	signingkey = 176D6E7DF8EF51A8
+	signingkey = 5904DDD4CC09087DC31436740E200047BDBFFEC2
 	gpgsign = true
 [commit]
 	gpgsign = true
